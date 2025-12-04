@@ -7,7 +7,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333333;
+    color: white;
     background-color: #FFFFFF;
 }
 
@@ -60,13 +60,13 @@ ul {
     color: white;
     padding: 5px;
     background-color: #9a784f;
-    border-radius: 1rem;
-    transition: color 0.3s ease;
+    border-radius: 12px;
     font-size: 1.2rem;
+    transition: background-color 0.5s ease;
 }
 
 .nav-menu li a:hover {
-    color: var(--accent-gold);
+    background-color: #ff7900;
 }
 
 /* ==================== HERO SECTION STYLES ==================== */
@@ -97,7 +97,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: var(--white);
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 2;
     width: 90%;
@@ -133,13 +133,13 @@ ul {
 }
 
 .btn-primary {
-    background-color: var(--accent-gold);
-    color: var(--primary-blue);
+    background-color: #9a784f;
+    color: ;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #E5A818;
+    background-color: #ff7900;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -224,8 +224,8 @@ ul {
 /* TODO: Style the footer using CSS Grid */
 
 .footer {
-    background-color: var(--primary-blue);
-    color: var(--white);
+    background-color: #ff0800;
+    color: white;
     padding: 3rem 0;
     margin-top: 2rem;
 }
@@ -240,7 +240,7 @@ ul {
 }
 
 .footer-section h3 {
-    color: var(--accent-gold);
+    color: white;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -257,15 +257,13 @@ ul {
 }
 
 .footer-nav a {
-    /* TODO: Set color to white */
-    
-    /* TODO: Add transition (0.3s) */
+    color: #9a784f;
+    transition: color 0.3s ease;
     
 }
 
 .footer-nav a:hover {
-    /* TODO: Change color on hover to accent gold */
-    
+    color: #ff7900;
 }
 
 /* ==================== FOOTER COPYRIGHT & DISCLAIMER ==================== */
@@ -349,7 +347,7 @@ ul {
     
     /* TODO: Change footer grid to 4 columns */
     .footer-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
     /* TODO: Increase hero heading size */
