@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+/* CSS HEX */
+:root {
+    --primary-red: #de141a;
+    --pumpkin-spice: #FA782C;
+    --smokey-rose: #986167;
+    --lavender-blush: #F6EBEC;
+    --burgundy: #940729;
+};
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: white;
-    background-color: #FFFFFF;
+    color: var(--lavender-blush);
+    background-color: var(--burgundy);
 }
 
 img {
@@ -33,7 +42,7 @@ ul {
 }
 
 .navbar {
-    background-color: #ff0800;
+    background-color: var(--primary-red);
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -57,16 +66,16 @@ ul {
 }
 
 .nav-menu li a {
-    color: white;
-    padding: 5px;
-    background-color: #9a784f;
+    color: var(--lavender-blush);
+    padding: 10px;
+    background-color: var(--smokey-rose);
     border-radius: 12px;
     font-size: 1.2rem;
     transition: background-color 0.5s ease;
 }
 
 .nav-menu li a:hover {
-    background-color: #ff7900;
+    background-color: var(--pumpkin-spice);
 }
 
 /* ==================== HERO SECTION STYLES ==================== */
@@ -75,6 +84,10 @@ ul {
    - Full width responsive images
    - Overlaid content (heading, text, button)
    - Use relative/absolute positioning */
+
+
+
+
 
 .hero {
     position: relative; /* Allows Absolute positioning of child elements */
@@ -97,7 +110,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: var(--lavender-blush);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     z-index: 2;
     width: 90%;
@@ -133,24 +146,24 @@ ul {
 }
 
 .btn-primary {
-    background-color: #9a784f;
-    color: ;
+    background-color: var(--smokey-rose);
+    color: var(--lavender-blush);
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #ff7900;
+    background-color: var(--pumpkin-spice);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .btn-secondary {
-    background-color: var(--secondary-blue);
-    color: var(--white);
+    background-color: var(--smokey-rose);
+    color: var(--lavender-blush);
 }
 
 .btn-secondary:hover {
-    background-color: #0052A3;
+    background-color: var(--pumpkin-spice);
 }
 
 /* ==================== CARDS SECTION ==================== */
@@ -158,13 +171,13 @@ ul {
 
 .cards-section {
     padding: 4rem 0;
-    background-color: var(--light-gray);
+    background-color: var(--burgundy);
 }
 
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--primary-blue);
+    color: var(--lavender-blush);
     margin-bottom: 3rem;
     font-weight: bold;
 }
@@ -186,7 +199,7 @@ ul {
 /* TODO: Style each card */
 
 .card {
-    background-color: var(--white);
+    background-color: var(--primary-red);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -209,13 +222,13 @@ ul {
 }
 
 .card-content h3 {
-    color: var(--primary-blue);
+    color: var(--lavender-blush);
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .card-content p {
-    color: var(--dark-gray);
+    color: var(--lavender-blush);
     margin-bottom: 1.5rem;
     line-height: 1.6;
 }
@@ -224,8 +237,8 @@ ul {
 /* TODO: Style the footer using CSS Grid */
 
 .footer {
-    background-color: #ff0800;
-    color: white;
+    background-color: var(--primary-red);
+    color: var(--lavender-blush);
     padding: 3rem 0;
     margin-top: 2rem;
 }
@@ -240,7 +253,7 @@ ul {
 }
 
 .footer-section h3 {
-    color: white;
+    color: var(--lavender-blush);
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -257,13 +270,13 @@ ul {
 }
 
 .footer-nav a {
-    color: #9a784f;
+    color: var(--smokey-rose);
     transition: color 0.3s ease;
     
 }
 
 .footer-nav a:hover {
-    color: #ff7900;
+    color: var(--pumpkin-spice);
 }
 
 /* ==================== FOOTER COPYRIGHT & DISCLAIMER ==================== */
