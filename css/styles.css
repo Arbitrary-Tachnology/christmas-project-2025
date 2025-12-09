@@ -112,7 +112,7 @@ ul {
     text-align: center;
     color: var(--lavender-blush);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    z-index: 2;
+    z-index: 10;
     width: 90%;
     max-width: 800px;
     border-radius: 5px;
@@ -131,6 +131,17 @@ ul {
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 5;
 }
 
 /* ==================== BUTTON STYLES ==================== */
@@ -235,6 +246,54 @@ ul {
     line-height: 1.6;
 }
 
+
+/*=============== Individual HTML pages styling ================= */
+.individual-html {
+    padding: 4rem 2rem;
+    background-color: var(--burgundy);
+}
+
+.individual-html:nth-child(even) {
+    background-color: var(--primary-red);
+}
+
+.individual-contain {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.individual-html h2 {
+    font-size: 2.5rem;
+    color: var(--lavender-blush);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.individual-html p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* ======= Paralax stuff ======= */
+
+.parallax-break {
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-mc-1 {
+    background-image: url('images/mcfinally.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 /* ==================== FOOTER STYLES ==================== */
 /* TODO: Style the footer using CSS Grid */
 
@@ -260,76 +319,13 @@ ul {
     font-size: 1.2rem;
 }
 
-/* ==================== FOOTER NAVIGATION ==================== */
-/* TODO: Style footer navigation links */
-
-.footer-nav ul {
-    
-}
-
-.footer-nav li {
-    margin-bottom: 0.5rem;
-}
-
-.footer-nav a {
-    color: var(--smokey-rose);
-    transition: color 0.3s ease;
-    
-}
-
-.footer-nav a:hover {
-    color: var(--pumpkin-spice);
-}
-
 /* ==================== FOOTER COPYRIGHT & DISCLAIMER ==================== */
 /* TODO: These sections can use default styling or customize as desired */
 
 .footer-copyright p,
 .footer-disclaimer p {
-    /* TODO: Set font-size (0.9rem) */
-    
-    /* TODO: Set line-height (1.6) */
-    
-}
-
-/* ==================== FOOTER CONTACT FORM ==================== */
-/* TODO: Style the contact form */
-
-.footer-contact form {
-    /* TODO: Use Flexbox or Grid for layout */
-    
-}
-
-.footer-contact label {
-    /* TODO: Display as block */
-    
-    /* TODO: Add margin-bottom (0.5rem) */
-    
-    /* TODO: Make font-weight bold */
-    
-}
-
-.footer-contact input,
-.footer-contact textarea {
-    /* TODO: Set width to 100% */
-    
-    /* TODO: Add padding (10px) */
-    
-    /* TODO: Add margin-bottom (1rem) */
-    
-    /* TODO: Set border (1px solid #ddd) */
-    
-    /* TODO: Set border-radius (5px) */
-    
-    /* TODO: Set font-family to inherit */
-    
-}
-
-.footer-contact textarea {
-    /* TODO: Set min-height (100px) */
-    
-    /* TODO: Allow vertical resize only */
-    
+    font-size: 0.9rem;
+    line-height: 1.6;   
 }
 
 /* ==================== MEDIA QUERIES ==================== */
