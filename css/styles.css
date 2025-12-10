@@ -253,10 +253,6 @@ ul {
     background-color: var(--burgundy);
 }
 
-.individual-html:nth-child(even) {
-    background-color: var(--primary-red);
-}
-
 .individual-contain {
     max-width: 900px;
     margin: 0 auto;
@@ -286,13 +282,36 @@ ul {
 }
 
 .parallax-mc-1 {
-    background-image: url('images/mcfinally.jpg');
+    background-image: url(../images/mcparallax-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.parallax-mc-2 {
+    background-image: url(../images/cafe_and_tachyon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-ananta-1 {
+    background-image: url(../images/ananta-parallax-1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-ananta-2 {
+    background-image: url(../images/taffy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 /* ==================== FOOTER STYLES ==================== */
 /* TODO: Style the footer using CSS Grid */
