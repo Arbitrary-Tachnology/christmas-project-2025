@@ -313,6 +313,38 @@ ul {
     background-attachment: fixed;
 }
 
+.parallax-ptcg-1 {
+    background-image: url(../images/pokemon-parallax-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-ptcg-2 {
+    background-image: url(../images/binder-parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-src-1 {
+    background-image: url(../images/MIKU.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-src-2 {
+    background-image: url(../images/src-parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* ==================== FOOTER STYLES ==================== */
 /* TODO: Style the footer using CSS Grid */
 
