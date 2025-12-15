@@ -246,7 +246,6 @@ ul {
     line-height: 1.6;
 }
 
-
 /*=============== Individual HTML pages styling ================= */
 .individual-html {
     padding: 4rem 2rem;
@@ -339,6 +338,54 @@ ul {
 
 .parallax-src-2 {
     background-image: url(../images/src-parallax.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-cyfts-1 {
+    background-image: url(../images/treelossos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-cyfts-2 {
+    background-image: url(../images/cream-sees-the-sunshine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-mtcg-1 {
+    background-image: url(../images/rhystic-study.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-mtcg-2 {
+    background-image: url(../images/mtg-miku-feature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-furina-1 {
+    background-image: url(../images/furina-my-goat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-furina-2 {
+    background-image: url(../images/Furina.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
