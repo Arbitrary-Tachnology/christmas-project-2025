@@ -53,7 +53,7 @@ ul {
 .navbar .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;  
 }
 
 .nav-brand {
@@ -77,6 +77,7 @@ ul {
 .nav-menu li a:hover {
     background-color: var(--pumpkin-spice);
 }
+
 
 /* ==================== HERO SECTION STYLES ==================== */
 /* TODO: Style the hero sections */
@@ -268,6 +269,7 @@ ul {
     font-size: 1.3rem;
     line-height: 1.8;
     margin-bottom: 1rem;
+    color: var(--lavender-blush);
 }
 
 /* ======= Paralax stuff ======= */
@@ -392,6 +394,37 @@ ul {
     background-attachment: fixed;
 }
 
+.parallax-pmg-1 {
+    background-image: url(../images/Untitled10_20251128163714.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-pmg-2 {
+    background-image: url(../images/thumbnail_1000035831.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-design-1 {
+    background-image: url(../images/AlanWeAreSoScrewed.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-design-2 {
+    background-image: url(../images/character-design.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 /* ==================== FOOTER STYLES ==================== */
 /* TODO: Style the footer using CSS Grid */
 
